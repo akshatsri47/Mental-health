@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mental Health Diagnosis</title>
+</head>
+<body>
+    <h1>Mental Health Diagnosis Prediction</h1>
+    <form action="/predict" method="post">
+        <label for="mood_swing">Mood Swing:</label>
+        <select id="mood_swing" name="Mood Swing">
+            <option value="YES">YES</option>
+            <option value="NO">NO</option>
+        </select><br><br>
+
+        <label for="optimism">Optimism:</label>
+        <select id="optimism" name="Optimisim">
+            <option value="3 From 10">3 From 10</option>
+            <option value="4 From 10">4 From 10</option>
+            <option value="5 From 10">5 From 10</option>
+        </select><br><br>
+
+        <label for="sexual_activity">Sexual Activity:</label>
+        <select id="sexual_activity" name="Sexual Activity">
+            <option value="3 From 10">3 From 10</option>
+            <option value="4 From 10">4 From 10</option>
+            <option value="5 From 10">5 From 10</option>
+        </select><br><br>
+
+        <label for="euphoric">Euphoric:</label>
+        <select id="euphoric" name="Euphoric">
+            <option value="Seldom">Seldom</option>
+            <option value="Sometimes">Sometimes</option>
+            <option value="Often">Often</option>
+        </select><br><br>
+
+        <label for="suicidal_thoughts">Suicidal Thoughts:</label>
+        <select id="suicidal_thoughts" name="Suicidal thoughts">
+            <option value="YES">YES</option>
+            <option value="NO">NO</option>
+        </select><br><br>
+
+        <input type="submit" value="Predict">
+    </form>
+</body>
+</html>
